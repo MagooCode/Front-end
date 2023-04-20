@@ -1,0 +1,41 @@
+.cards{
+    margin: 300px;
+}
+
+.cards{
+    display: flex;
+}
+
+.card{
+    background-color: #dcedc8;
+    padding: 15px 20px;
+    width: 25%;
+    margin: 0 1rem;
+    border: 1px solid green;
+    transition: all 0.7s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.cards .card:hover{
+    background-color: #008d7d;
+    transform: translateY(-25px);
+    /* transform: rotate(360deg); */
+}
+
+.card:hover .title{
+    color: white;
+    transition: all 1;
+}
+
+.card:hover .content{
+    color: white;
+    transition: all 1;
+}

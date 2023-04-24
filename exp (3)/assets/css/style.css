@@ -1,0 +1,120 @@
+body{
+    background-color:rgb(237,239,241);
+}
+
+#navbar{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#right{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+}
+
+#Logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+}
+
+#Navigations{
+    width: auto;
+    height: auto;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#button{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+button{
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 6px;
+  margin-left: 10px;
+  padding: 2,5px 3px;
+}
+
+/*Section 2*/
+
+#section{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    margin-top: 100px;
+}
+
+#imageAndWords{
+    display: flex;
+    justify-content: center;
+    row-gap: 30px;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+#Wordss{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 29px;
+    padding-left: 7px;
+    row-gap: 50px;
+}
+
+#BigWords{
+    height:3px;
+
+}
+
+#littleOnes{
+  text-align: left;
+  font-size: 19px;
+  
+}
+
+
+#JustWords{
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    column-gap: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 400px ;
+}
+
+#down{
+    display: flex;
+    justify-content: center;
+}
+
+#downContainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}

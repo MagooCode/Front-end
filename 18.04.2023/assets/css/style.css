@@ -1,0 +1,85 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+section{
+    margin-bottom: 0.5%;
+}
+
+form{
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.name{
+    margin-right: 2%;
+}
+
+.surname{
+    margin-right: 10%;
+}
+
+.street,.postalcode{
+    margin-right: 2%;
+}
+
+.first-row,
+.fourth-row,
+.seventh-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.language{
+    margin-right: 25%;
+}
+
+input[type="email"]{
+    border: 2px solid rgb(109, 102, 102blue);
+    width: 98.5%;
+    height: 23px;
+}
+
+input[type="text"]{
+    border: 2px solid rgb(109, 102, 102blue);
+    height: 23px;
+}
+
+input[type="submit"]{
+    border-style: none;
+    border: 2px solid rgb(109, 102, 102blue);
+    border-radius: 15%;
+    color: white;
+    width: 60px;
+    height: 25px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label{
+    font-weight: bold;
+}
+
+#adress{
+    width:98.5%
+}
+
+#country{
+    width: 98.5%;
+    border: 2px solid rgb(109, 102, 102blue);
+    height: 35px;
+}
+
+#fname,
+#lname{
+    width: 110px;
+}
+
+#street,
+#postalcode,
+#city{
+    width: 150px;
+}

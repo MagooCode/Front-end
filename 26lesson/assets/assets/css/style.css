@@ -1,0 +1,172 @@
+body {
+  background-color: rgb(242, 243, 247);
+}
+body header nav:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  margin-top: 20px;
+}
+body header nav:first-child nav .container-fluid {
+  width: 100%;
+}
+body header nav:first-child nav .container-fluid .collapse .buttonsNavbar {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+body header nav:first-child nav .container-fluid .collapse .buttonsNavbar button {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  box-shadow: 1px 1px 3px 1px black;
+  color: #2196f3;
+  transition: 1s;
+}
+body header nav:first-child nav .container-fluid .collapse .buttonsNavbar button .fa-brands {
+  font-size: 23px;
+  transition: 1s;
+}
+body header nav:first-child nav .container-fluid .collapse .buttonsNavbar button .fa-brands:hover {
+  color: black;
+}
+body header nav:first-child nav .container-fluid .collapse .buttonsNavbar button:hover {
+  background-color: #2196f3;
+}
+body header nav:first-child nav .container-fluid .collapse .navbar-nav {
+  padding-left: 300px;
+  margin: auto;
+  flex-direction: row;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  align-items: center;
+  padding-bottom: 10px;
+}
+body header nav:first-child nav .container-fluid .navbar-brand {
+  color: #2196f3;
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: 1%;
+  transition: 1.2s;
+}
+body main #section1Container {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+body main #section1Container div:first-child {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+body main #section1Container div:first-child p:first-child {
+  width: 200px;
+  height: 20px;
+  text-align: left;
+  letter-spacing: 1%;
+  color: black;
+  font-size: 24px;
+}
+body main #section1Container div:first-child p:last-child {
+  width: 350px;
+  height: auto;
+  font-size: 60px;
+  line-height: 50px;
+  color: #2196f3;
+}
+body main #section1Container div:nth-child(2) {
+  width: 100px;
+  height: 300;
+}
+body main #section1Container div:nth-child(2) hr {
+  color: #2196f3;
+  width: 80%;
+  height: 100%;
+  transform: rotate(90deg);
+}
+body main #section1Container div:last-child {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 20px;
+}
+body main #section1Container div:last-child p {
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main .Container {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .Container #top {
+  width: 1000px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 30px;
+}
+body main .Container #top h1 {
+  font-weight: 500;
+  font-size: 40px;
+  color: blue;
+}
+body main .Container #top p {
+  width: 60%;
+  height: auto;
+  color: black;
+}
+body main .Container #bottom {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+}
+body main .Container #bottom div {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px 2px black;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  border: 2px solid black;
+}
+body .section-title {
+  color: #36187d;
+  text-align: center;
+  font-family: "Bellota Text", display;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+body .card-title {
+  color: #36187d;
+  text-align: center;
+  font-family: "Bellota Text", display;
+  font-size: 1.7rem;
+  line-height: 1.5;
+}
+body .section-description {
+  display: flex;
+  justify-content: center;
+}

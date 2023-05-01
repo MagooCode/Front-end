@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-size: 12px;
+  color: #333;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(182, 245, 245);
+  width: 100%;
+  height: 100vh;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  margin: 0;
+}
+body *,
+body *:before,
+body *:after {
+  box-sizing: border-box;
+}
+body .section {
+  max-width: 1400px;
+  height: 90vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+body .section .container {
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  background-color: #fff;
+}
+body .section .container .contactus {
+  display: flex;
+}
+body .section .container .contactus .contactus-item {
+  display: block;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+}
+body .section .container .contactus .contactus-item .contactus-item-adress {
+  line-height: 1;
+}
+body .section .container .contactus .contactus-item .contactus-item-adress .contactus-item-adress-icon {
+  font-size: 24px;
+  color: rgb(116, 52, 235);
+  padding-bottom: 8px;
+}
+body .section .container .contactus .contactus-item .contactus-item-adress .contactus-item-adress-subtitle {
+  font-weight: 500;
+  opacity: 0.65;
+  margin-bottom: 12px;
+}
+body .section .container .contactus .contactus-item .contactus-item-phone {
+  line-height: 1;
+}
+body .section .container .contactus .contactus-item .contactus-item-phone .contactus-item-phone-icon {
+  font-size: 24px;
+  color: rgb(116, 52, 235);
+  padding-bottom: 8px;
+}
+body .section .container .contactus .contactus-item .contactus-item-phone .contactus-item-phone-subtitle {
+  font-weight: 500;
+  opacity: 0.65;
+  margin-bottom: 12px;
+}
+body .section .container .contactus .contactus-item .contactus-item-email {
+  line-height: 1;
+}
+body .section .container .contactus .contactus-item .contactus-item-email .contactus-item-email-icon {
+  font-size: 24px;
+  color: rgb(116, 52, 235);
+  padding-bottom: 8px;
+}
+body .section .container .contactus .contactus-item .contactus-item-email .contactus-item-email-subtitle {
+  font-weight: 500;
+  opacity: 0.65;
+  margin-bottom: 12px;
+}
+body .section .container .contactus .contactus-input {
+  padding-left: 50px;
+  height: 100%;
+  width: 80%;
+}
+body .section .container .contactus .contactus-input .contactus-input-header .contactus-input-header-title {
+  font-size: 24px;
+  color: rgb(116, 52, 235);
+}
+body .section .container .contactus .contactus-input .contactus-input-header .contactus-input-header-subtitle {
+  font-size: 18px;
+  font-weight: 500;
+}
+body .section .container .contactus .contactus-input .contactus-input-label-lname .contactus-input-label-lname-frame {
+  background-color: #ccc;
+}
+body .section .container .contactus .contactus-input .contactus-input-label-email .contactus-input-label-email-frame {
+  background-color: #ccc;
+}
+body .section .container .contactus .contactus-input .contactus-input-label-message .contactus-input-label-message-frame {
+  background-color: #ccc;
+}
+body .section .container .contactus .contactus-input .contactus-input-btn {
+  background-color: rgb(116, 52, 235);
+  padding: 5px 8px;
+  color: #fff;
+  border-radius: 4px;
+}
+body .contactus-item:after {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  background-color: #ccc;
+  right: 0;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  rotate: 90deg;
+}
+
+@media only screen and (min-width: 1250px) {
+  .contactus-item {
+    display: none;
+  }
+}

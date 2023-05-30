@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 30px 100px;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2em;
+    color: #359381;
+    pointer-events: none;
+    margin-right: 270px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #359381;
+    padding: 0.4rem 1rem;
+    border-radius: 1.2rem;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background-color: #359381;
+    color: #fff;
+}
+
+.parallax {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#text {
+    position: absolute;
+    font-size: 5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.2);
+}
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.section {
+    position: relative;
+    background: #003329;
+    padding: 100px;
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.section p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+.container {
+    max-width: 1250px;
+    width: 100%;
+  }
+  
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card_item {
+    width: 150px;
+    background-color: #fff;
+  }
+  
+  .card_item .heading {
+    color: #fff;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: #359381;
+  }
+  
+  .Sun {
+    background-color: red;
+  }
+  
+  .Tue {
+    background-color: #2196f3;
+  }
+  
+  .Blue {
+    background-color: blue;
+  }
+  
+  .card_body {
+    padding: 25px 35px;
+    
+  }
+  
+  .card_temp {
+    text-transform: uppercase;
+    font-size: 65px;
+  }
+  
+  .card_icon {
+    font-size: 65px;
+  }
+  
+  .card_desc {
+    font-size: 30px;
+    font-weight: 200;
+  }
+  
+  .heading-top {
+    font-size: 65px;
+    line-height: 1;
+    font-weight: 700;
+    opacity: .4;
+    text-align: center;
+    margin-bottom: 38px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

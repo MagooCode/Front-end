@@ -1,0 +1,94 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.add-btn {
+    padding: 10px 20px;
+    background: #00b09b;
+    background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
+    background: linear-gradient(to right, #96c93d, #00b09b);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.fruit-card {
+    margin-bottom: 10px;
+    color: white;
+    padding: 10px;
+    background: #fffbd5;
+    background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5);
+    background: linear-gradient(to right, #b20a2c, #fffbd5);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 8px;
+}
+
+.count-btn,
+.toggle-btn {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background: #3C3B3F;
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
+    background: linear-gradient(to right, #605C3C, #3C3B3F);
+   
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+} */
+
+.section {
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+
+    border: 1px solid gray;
+}
+
+.card {
+    width: 100%;
+}
+
+.card_upper {
+    width: 100%;
+}
+/* 
+.fa-cart-shopping {
+    font-size: 80px;
+} */

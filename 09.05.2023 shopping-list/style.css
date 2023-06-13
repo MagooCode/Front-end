@@ -1,0 +1,120 @@
+.body {
+    background-color: rgb(255, 255, 255);
+}
+
+.section {
+    height: 100vh;
+}
+
+.buttonsBlock {
+    
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.add {
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.4rem 1.8rem;
+    background-color: #2196f3;
+    cursor: pointer;
+    margin-right: 0.3rem;
+}
+
+.add:hover {
+    background-color: darkblue;
+    color: #fff;
+}
+
+.remove {
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.4rem 1.8rem;
+    /* background-color: rgb(181, 103, 103); */
+    background-color: #c11717;
+    cursor: pointer;
+    margin-right: 0.3rem;
+}
+
+.remove:hover {
+    background-color: darkred;
+    color: #fff;
+}
+
+.clear {
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.4rem 1.8rem;
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+.clear:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.content {
+    height: fit-content;
+    border: 1px solid black;
+
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.contentInner {
+    padding: 1rem;
+    font-size: 38px;
+    font-weight: 700;
+    border-bottom: 1px solid rgb(198,214,219);
+    font-family: 'Kalam', cursive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0;
+    padding-top: 0;
+    height: 88px;
+}
+
+.TickEx {
+    display: flex;
+    cursor: pointer;
+}
+
+.tick {
+    color: darkgreen;
+    cursor: pointer;
+    margin-right: 1rem;
+    font-size: 2.8rem;
+}
+
+.tick:hover {
+    scale: 1.22;
+}
+
+.ex {
+    color: #c11717;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    font-size: 2.8rem;
+}
+
+.ex:hover {
+    scale: 1.22;
+}
+
+.emptycontent {
+    padding: 1rem;
+    font-size: 38px;
+    font-weight: 700;
+    border-bottom: 1px solid rgb(198,214,219);
+    font-family: 'Kalam', cursive;
+}

@@ -1,0 +1,142 @@
+.container_inner {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container_inner .intro {
+    margin-bottom: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.container_inner .intro img {
+    margin-right: 50px;
+}
+
+.container_inner .intro .intro_description .intro_description_sup {
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.container_inner .intro .intro_description .intro_description_sub {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1;
+    opacity: 0.72;
+}
+
+.container_inner .career {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.container_inner .career .career_desc .career_desc_sup {
+    font-weight: 700;
+    font-size: 35px;
+    width: 50%;
+    margin-bottom: 12px;
+}
+
+.container_inner .career .career_desc .career_desc_sub {
+    width: 50%;
+    font-size: 17.5px;
+    line-height: 1.3;
+}
+
+.container_inner .career .career_desc .career_desc_sub {
+    width: 50%;
+    font-size: 17.5px;
+    line-height: 1.3;
+}
+
+.container_inner .career .career_btns .row_one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 40px;
+}
+
+.container_inner .career .career_btns .row_one p {
+    border: 1px solid black;
+    padding: 5px 7px;
+    height: 20px;
+}
+
+.container_inner .career .career_btns .row_two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 40px;
+}
+
+.container_inner .career .career_btns .row_two p {
+    border: 1px solid black;
+    padding: 5px 7px;
+    height: 20px;
+}
+
+.container_inner .career .career_btns .row_three {
+    height: 20px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.container_inner .career .career_btns .row_three p {
+    border: 1px solid black;
+    padding: 5px 7px;
+    height: 20px;
+}
+
+.container_inner .career .career_btns .row_four {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 40px;
+}
+
+.container_inner .career .career_btns .row_four p {
+    border: 1px solid black;
+    padding: 5px 7px;
+    height: 20px;
+}
+
+.container_inner .career .career_btns .row_five {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 40px;
+}
+
+.container_inner .career .career_btns .row_five p {
+    border: 1px solid black;
+    padding: 5px 7px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

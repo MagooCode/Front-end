@@ -1,0 +1,42 @@
+.header {
+    padding-bottom: 50px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+.header .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.header .logo img {
+    margin-right: 12px;
+  }
+
+.header .logo div {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.header .navigation .nav_link {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 4px;
+    padding: 0.5rem 1rem;
+}
+
+.header .navigation .nav_link:hover,.header .navigation .nav_link.active {
+    color: #fff;
+    background-color: black;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 0.2rem;
+}
+

@@ -1,0 +1,15 @@
+body {
+  background: linear-gradient(to right, rgb(220, 35, 65), rgb(75, 125, 125));
+}
+body .container {
+  padding-top: 60px;
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+}
+body .container .card {
+  background-color: #fff;
+  border: 1px solid gray;
+  width: 100%;
+  padding: 15px 40px;
+}

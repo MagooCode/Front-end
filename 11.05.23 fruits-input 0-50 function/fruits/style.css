@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightskyblue;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightyellow;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.add-btn {
+    padding: 10px 20px;
+    background: darkgreen;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.fruit-card {
+    margin-bottom: 10px;
+    color: white;
+    padding: 10px;
+    background: #fffbd5;
+    background: -webkit-linear-gradient(to right, orange, #fffbd5);
+    background: linear-gradient(to right,orange, #fffbd5);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 8px;
+}
+
+.count-btn,
+.toggle-btn {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background: #3C3B3F;
+    background: -webkit-linear-gradient(to right, gray, #3C3B3F);
+    background: linear-gradient(to right, gray, #3C3B3F);
+   
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.btnBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .section {
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+
+    border: 1px solid gray;
+}
+
+.card {
+    width: 100%;
+}
+
+.card_upper {
+    width: 100%;
+    display: flex;
+}
+
+.input_field {
+    width: 100%;
+    height: 100%;
+}
+
+.visible,.unvisible {
+    display: none;
+    cursor: pointer;
+}
+
+.visibility.deactive ~ .unvisible {
+    display: block;
+}
+
+.visibility.deactive ~ .visible {
+    display: none;
+}
+
+.visibility.active ~ .visible {
+    display: block;
+}
+
+.visibility.active ~ .unvisible {
+    display: none;
+}
+
+.add_btn {
+    cursor: pointer;
+} */

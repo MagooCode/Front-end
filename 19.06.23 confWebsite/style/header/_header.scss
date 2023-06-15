@@ -1,0 +1,66 @@
+body {
+    .header {
+        position: fixed;
+        z-index: 999;
+        height: 105px;
+        width: 100%;
+        transition-duration: 500ms;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        align-items: center;
+        .container {
+            max-width: 1140px;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            .header_inner {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                img {
+                    // background: url(../../assets/img/confer-logo.webp) center no-repeat;
+                    height: fit-content;
+                }
+                .navigation {
+                    // position: relative;
+                    // display: flex;
+                    // align-items: center;
+                    .nav_link {
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #fff;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        padding: 0 20px;
+                        height: 40px;
+
+                        transition: all .5s ease;
+                    }
+                    .nav_link:hover,
+                    .nav_link.active {
+                        color: #df42b1;
+                    }
+                }
+                .confer_btn {
+                    display: flex;
+                    align-items: center;
+
+                    color: #fff;
+                    text-decoration: none;
+                    outline: none;
+                    font-size: 14px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    height: 46px;
+                    border: none;
+                    border-radius: 23px;
+                    letter-spacing: 0.5px;
+                    padding: 0 25px;
+                    text-align: center;
+
+                    background: linear-gradient(to right bottom,#e83e8c,#6f42c1);
+                }
+            }
+        }
+    }
+}

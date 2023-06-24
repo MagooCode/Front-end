@@ -1,0 +1,128 @@
+body {
+    .benefits {
+        width: 1519.2px;
+        height: 500px;
+
+        background-color: #fafafa;
+        .entep_benefits {
+            height: 100%;
+    
+            padding-top: 56px;
+            .container {
+                width: 1152px;
+                height: 96px;
+    
+                padding: 0 24px;
+                margin: 0 159.6px;
+                .benefits_heading {
+                    margin-bottom: 40px;
+                    font-size: 32px;
+                    line-height: 48px;
+                    letter-spacing: .25px;
+                    font-weight: 400;
+                }
+                .benefit_items {
+                    width: 100%;
+                    padding-bottom: 24px;
+                    height: 320px;
+
+                    display: flex;
+                    flex-direction: row;
+                    .benefit_item {
+                        height: 296px;
+                        flex: 1 1 0;
+
+                        border-radius: 8px;
+                        background-color: #fff;
+                        min-width: 311px;
+                        height: 100%;
+
+                        padding: 24px 24px 16px;
+                        margin-right: 24px;
+
+                        cursor: pointer;
+                        i {
+                            font-size: 40px;
+                            color: #099a71;
+
+                            margin-bottom: 16px;
+                        }
+                        .item_heading {
+                            margin-bottom: 16px;
+                            line-height: 24px;
+                            letter-spacing: .15px;
+                            font-size: 20px;
+                            font-weight: 400;
+                        }
+                        .item_desc {
+                            margin-bottom: 32px;
+                            .desc_stat {
+                                display: flex;
+                                font-weight: 500;
+                                font-size: 14px;
+                                line-height: 20px;
+                                letter-spacing: .25px;
+                                margin-bottom: 16px;
+
+                                padding-right: 0 28px;
+                                .tick {
+                                    color: #099a71;
+                                    margin-right: 10px;
+                                    font-size: 20px;
+                                }
+                                .desc_main {
+                                    color: rgba(0,0,0,.6);
+                                }
+                            }
+                        }
+                        .item_more_info {
+                            color: #099a71;
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: .1px;
+                            font-weight: 500;
+                            padding: 8px 0;
+                            div {
+                                span {
+                                    margin-left: 6px;
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                    .benefit_item:hover {
+                        box-shadow: 0 6px 10px rgba(0,0,0,.07), 0 0 10px rgba(0,0,0,.03);
+                    }
+                    .benefit_item.two {
+                        height: 296px;
+                        flex: 1 1 0;
+
+                        border-radius: 8px;
+                        background-color: #fff;
+                        min-width: 311px;
+                        height: 100%;
+
+                        padding: 24px 24px 16px;
+                        margin-right: 24px;
+                        .circle {
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            border: 3.8px solid #099a71;;
+
+                            display: flex;
+                            justify-content: center;
+
+                            margin-bottom: 16px;
+                            i {
+                                font-size: 32px;
+                                color: #099a71;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

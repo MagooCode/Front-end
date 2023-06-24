@@ -1,0 +1,78 @@
+body {
+    .latest_news {
+        width: 1519.2px;
+        height: 500px;
+
+        padding-top: 96px;
+        background-color: #fafafa;
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            padding: 0 24px;
+            margin: 0 159.6px;
+            .news_heading {
+                margin-bottom: 40px;
+                font-size: 32px;
+                line-height: 48px;
+                letter-spacing: .25px;
+                font-weight: 400;
+            }
+            .news_items {
+                margin-bottom: 24px;
+
+                width: fit-content;
+                display: flex;
+                flex-wrap: nowrap;
+                .news_item {
+                    min-width: 253px;
+                    margin-right: 24px;
+                    .item_releaseTime {
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+                        letter-spacing: .25px;
+                        color: rgba(0,0,0,.6);
+                    }
+                    a {
+                        transition: all .3s cubic-bezier(.23,1,.32,1);
+                        margin-top: 8px;
+                        display: block;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        letter-spacing: .15px;
+
+                        text-decoration: none;
+                        color: #333;
+                    }
+                    a:hover {
+                        color: #099a71;
+                    }
+                }
+            }
+            .news_more_info {
+                cursor: pointer;
+                margin-top: 48px;
+                div {
+                    transition: all .3s cubic-bezier(.23,1,.32,1);
+                    color: #099a71;
+    
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: .1px;
+                    font-weight: 400;
+                    padding: 8px 0;
+                    display: flex;
+                    align-items: center;
+                    span {
+                        margin-left: 6px;
+                        font-weight: 700;
+                    }
+                }
+                div:hover {
+                    color: green;
+                }
+            }
+        }
+    }
+}

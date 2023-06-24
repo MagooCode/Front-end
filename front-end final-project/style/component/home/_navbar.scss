@@ -1,0 +1,89 @@
+body {
+    .header_home {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 999;
+        background-color: #fff;
+        .header_container {
+            max-width: 1440px;
+            width: 100%;
+            margin: 0 auto;
+            .header_inner {
+                display: flex;
+                justify-content: space-between;
+                // padding: 12.8px 0;
+                align-items: center;
+                .header_main {
+                    display: flex;
+                    align-items: center;
+                    .logo {
+                        margin-right: 56px;
+                        padding: 12.8px 0;
+                    }
+                    .navigation {
+                        font-size: 14px;
+                        line-height: 24px;
+                        letter-spacing: .1px;
+                        font-weight: 500;
+                        .nav_link {
+                            display: inline-block;
+    
+                            position: relative;
+                            padding: 24px 16px;
+                            text-decoration: none;
+                            color: rgba(0,0,0,.38);
+                        }
+                        .nav_link:hover {
+                            position: relative;
+                            padding: 24px 16px;
+                            text-decoration: none;
+                            color: rgba(0,0,0,.87);
+    
+                            background-color: #f1f9f7;
+                        }
+                        .nav_link:hover.nav_link::after {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            bottom: 0;
+                            width: 100%;
+    
+                            border-top-left-radius: 4px;
+                            border-top-right-radius: 4px;
+                            height: 2px!important;
+                            background-color: #058d66;
+                        }
+                    }
+                }
+                .header_btn {
+                    color: #fff;
+                    background-color: #058d66;
+                    padding: 8px 16px;
+    
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: .1px;
+                    font-weight: 400;
+                    border-radius: 6px;
+                    cursor: pointer;
+                    outline: none;
+                    border: none;
+                    text-align: center;
+                    i {
+                        font-size: 10px;
+                        margin-left: 3px;
+                    }
+                }
+                .header_btn:hover {
+                    background-color: #2caa84;
+                }
+            }
+        }
+    }
+    
+}
+

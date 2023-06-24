@@ -1,0 +1,179 @@
+.tariffs ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    .tariffs {
+        width: 1519.2px;
+        height: 1150px;
+
+        padding-top: 96px;
+        background-color: #fafafa;
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            height: 136px;
+
+            margin: 0 159.6px;
+            padding: 0 24px;
+            .tariff_heading {
+                width: 588px;
+                height: 136px;
+
+                margin-bottom: 40px;
+                font-size: 32px;
+                line-height: 48px;
+                letter-spacing: .25px;
+                font-weight: 400;
+            }
+            .tariff_items {
+                padding-top: 12px;
+                padding-bottom: 24px;
+                width: 100%;
+                height: 674px;
+
+                display: flex;
+                justify-content: space-between;
+                .tariff_item {
+                    background-color: #fff;
+                    width: 368px;
+                    height: 730px;
+
+                    margin-right: 24px;
+                    padding: 24px;
+                    position: relative;
+
+                    display: flex;
+                    flex-direction: column;
+                    border-radius: 8px;
+
+                    .tariff_item_heading {
+                        width: 320px;
+                        height: 32px;
+
+                        margin-bottom: 24px;
+                        font-size: 24px;
+                        font-weight: 500;
+                        line-height: 32px;
+                    }
+                    .tariff_image {
+                        width: 100%;
+                        margin-bottom: 16px;
+                        img {
+                            width: 320px;
+                            height: 166px;
+                        }
+                    }
+                    .tariff_price {
+                        display: flex;
+                        align-items: baseline;
+                        h2 {
+                            margin-right: 4px;
+                            font-size: 60px;
+                            font-weight: 300;
+                            line-height: 72px;
+                            letter-spacing: -.5px;
+                        }
+                        .azn {
+                            margin-right: 8px;
+                            height: 17px;
+                            width: 18px;
+                        }
+                        p {
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 24px;
+                            letter-spacing: .5px;
+                            color: rgba(0,0,0,.38);
+                        }
+                    }
+                    .tariff_offer {
+                        margin-bottom: 16px;
+                        font-size: 14px;
+                        line-height: 24px;
+                        letter-spacing: .1px;
+                        font-weight: 400;
+                    }
+                    .perks {
+                        margin-bottom: 40px;
+                        list-style: none;
+                        .perk {
+                            background-position-y: top;
+                            padding: 0 28px;
+                            background-size: 20px;
+                            background: url(../../../public/images/tariffs/done.svg) no-repeat 0;
+                            color: rgba(0,0,0,.6);
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 20px;
+                            letter-spacing: .25px;
+                            margin-bottom: 16px;
+
+                            // transform: translateX(-40px);
+                            span {
+                                color: #099a71;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                    .more {
+                        background-color: hsla(0,0%,100%,0);
+                        color: #099a71;
+                        background-position: 50%;
+
+                        font-size: 14px;
+                        line-height: 24px;
+                        letter-spacing: .1px;
+                        font-weight: 500;
+                        border-radius: 6px;
+                        cursor: pointer;
+                        outline: none;
+                        border: none;
+
+                        transition: all .3s cubic-bezier(.23,1,.32,1);
+
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        min-width: 128px;
+                        height: 40px;
+                        padding: 8px 16px;
+
+                        margin-bottom: 8px;
+                    }
+                    .more:hover {
+                        background: #f1f9f7 radial-gradient(circle,transparent 1%,#f1f9f7 0) 50%/18000%;
+                        color: #099a71;
+                    }
+                    .create_acc {
+                        background: #058d66;
+                        color: #fff;
+                        background-position: 50%;
+
+                        transition: all .3s cubic-bezier(.23,1,.32,1);
+                        font-size: 14px;
+                        line-height: 24px;
+                        letter-spacing: .1px;
+                        font-weight: 500;
+                        border-radius: 6px;
+                        cursor: pointer;
+                        outline: none;
+                        border: none;
+
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        min-width: 128px;
+                        height: 40px;
+                        padding: 8px 16px;
+                    }
+                    .create_acc:hover {
+                        background: #2caa84 radial-gradient(circle,transparent 1%,#2caa84 0) 50%/18000%;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

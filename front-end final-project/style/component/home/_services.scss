@@ -1,0 +1,86 @@
+body {
+    .services {
+        width: 1519.2px;
+        height: 368px;
+
+        padding: 40px 0;
+
+        position: relative;
+
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        overflow: hidden;
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            height: 329px;
+            padding: 0 24px;
+            margin: 0 159.6px;
+            .services_content {
+                height: 588px;
+                width: 289px;
+
+                padding: 0 12px;
+                .services_heading {
+                    width: 515px;
+                    height: 44px;
+
+                    margin-bottom: 24px;
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    letter-spacing: .15px;
+                    font-weight: 600;
+                    color: rgba(0,0,0,.87);
+                }
+                .services_desc {
+                    width: 480px;
+                    margin-top: 24px;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 24px;
+                    letter-spacing: .5px;
+                    color: rgba(0,0,0,.6);
+                }
+                .services_links {
+                    padding-top: 48px;
+                    width: 100%;
+
+                    display: flex;
+                    justify-content: space-between;
+                    .download_link {
+                        width: 141px;
+                        img {
+                            width: 141px;
+                            height: 41px;
+                        }
+                        .one {
+                            margin-bottom: 8px;
+                        }
+                    }
+                    .download_scan {
+                        width: 141px;
+
+                        margin-left: 8px;
+                        img {
+                            height: 93px;
+                            width: 93px;
+                        }
+                    }
+                }
+            }
+        }
+        .image {
+            position: absolute;
+            right: 0;
+            top: 0;
+            img {
+                width: 762px;
+                height: 368px;
+
+                z-index: 2;
+            }
+        }
+    }
+}
